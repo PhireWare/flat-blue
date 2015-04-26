@@ -2,7 +2,7 @@
 /*
 Plugin Name: FlatBlue Admin Theme
 Description: A more modern look for the admin interface in GetSimple CMS
-Version: 1.0
+Version: 1.1
 Author: PhireWare
 Author URI: http://www.phireware.com/
 */
@@ -14,12 +14,12 @@ $thisfile=basename(__FILE__, ".php");
 register_plugin(
 	$thisfile,
 	'FlatBlue',
-	'1.0',
+	'1.1',
 	'PhireWare',
 	'http://www.phireware.com/',
 	'A more modern look for the admin interface in GetSimple CMS',
 	'theme'
 );
 
-register_style('flat-blue', $SITEURL.'plugins/flat-blue/css/style.css', 1.0);
-queue_style('flat-blue',GSBOTH);
+register_style('flat-blue', $SITEURL.'plugins/flat-blue/css/style.css', 1.1);
+queue_style('flat-blue',GSBACK);
