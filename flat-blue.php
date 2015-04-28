@@ -21,5 +21,5 @@ register_plugin(
 	'theme'
 );
 
-register_style('flat-blue', $SITEURL.'plugins/flat-blue/css/style.css', 1.1);
+register_style('flat-blue', $SITEURL.'plugins/flat-blue/css/flatblue_style.css', 1.1, FALSE);
 queue_style('flat-blue',GSBACK);
