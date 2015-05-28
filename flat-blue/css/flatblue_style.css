@@ -76,7 +76,8 @@ input.submit:active { opacity:1; background:#212121 !important; }
 .wrapper a:link, .wrapper a:visited { font-weight:400; }
 .wrapper a:hover, .wrapper a:active { color:#212121; text-decoration:none; }
  
-.header { margin:0; border-top:0; filter:none; background-image:none; position: fixed; height: 61px; top: 0; left: 0; right: 0; z-index: 1000;}
+#header { position: fixed; height: 61px; }
+.header { margin:0; border-top:0; filter:none; background-image:none; top: 0; left: 0; right: 0; z-index: 1000;}
 .header .wrapper { height:60px; margin-left: 15px; margin-right: 15px;}
 .header h1 { top:12px; color:#fff; width: 180px; font: 400 20px/1.4 'Source Sans Pro', 'Helvetica Nue', sans-serif; }
 .header h1 a { overflow:hidden; white-space:nowrap; text-overflow:ellipsis; }
